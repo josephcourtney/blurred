@@ -9,15 +9,15 @@
 import Foundation
 
 struct GlobalKeybindPreferences: Codable, CustomStringConvertible {
-    let function : Bool
-    let control : Bool
-    let command : Bool
-    let shift : Bool
-    let option : Bool
-    let capsLock : Bool
-    let carbonFlags : UInt32
-    let characters : String?
-    let keyCode : UInt32
+    let function: Bool
+    let control: Bool
+    let command: Bool
+    let shift: Bool
+    let option: Bool
+    let capsLock: Bool
+    let carbonFlags: UInt32
+    let characters: String?
+    let keyCode: UInt32
 
     var description: String {
         var stringBuilder = ""
@@ -48,7 +48,6 @@ struct GlobalKeybindPreferences: Codable, CustomStringConvertible {
 
 extension GlobalKeybindPreferences {
     func save() {
-        
+
     }
 }
-

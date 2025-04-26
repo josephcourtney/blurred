@@ -16,7 +16,7 @@ class AboutViewController: NSHostingController<AboutView> {
         preferredContentSize = CGSize(width: 500, height: 360)
         preferredScreenOrigin = .init(x: 0.5, y: 0.5)
     }
-    
+
     class func initWithStoryboard() -> AboutViewController {
         return NSStoryboard(name: "Main", bundle: nil).instantiateController(withIdentifier: "AboutViewController") as! AboutViewController
     }

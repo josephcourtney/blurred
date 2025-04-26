@@ -15,7 +15,7 @@ class GeneralViewController: NSHostingController<GeneralView> {
         super.init(coder: coder, rootView: GeneralView(setting: DimManager.sharedInstance.setting))
         preferredContentSize = CGSize(width: 600, height: 600)
     }
-    
+
     class func initWithStoryboard() -> GeneralViewController {
         return NSStoryboard(name: "Main", bundle: nil).instantiateController(withIdentifier: "GeneralViewController") as! GeneralViewController
     }

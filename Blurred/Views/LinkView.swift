@@ -25,7 +25,7 @@ struct LinkView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 16)
                         .foregroundColor(.primary)
-                    
+
                     Text(title.localized)
                         .fontWeight(.medium)
                         .foregroundColor(.primary)

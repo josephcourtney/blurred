@@ -44,4 +44,3 @@ extension WindowInfo {
         storeType = dict["kCGWindowStoreType"] as! Int
     }
 }
-
